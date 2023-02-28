@@ -1,0 +1,172 @@
+
+
+body
+{
+    font-size: 16px;
+    font-family:Josefin Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+bc
+{
+    height: auto;
+    width: auto;
+    background-image: url('../base-apparel-coming-soon-master/images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+td.background
+{
+    background-image: image(bg-pattern-desktop);
+
+}
+
+td
+{
+    background-color: white;
+    
+
+}
+
+label
+{
+    position: relative;
+
+}
+
+input[type="email"]
+{
+   border:none;
+   width: 480px;
+   height: 50px;
+   padding: 0 16px;
+   
+}
+
+
+
+button
+{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    background-image:url(images/icon-arrow.svg) ;
+
+
+}
+
+.container > div
+{
+    border: 3px solid pink;
+    width: 150px;
+    height: 150px;
+
+}
+
+.float-child 
+{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+
+
+
+/* <!--     <table style="width: 100%;">
+
+      <tr>  
+        <td >
+          Logo of the website
+  
+           <img src="../base-apparel-coming-soon-master/images/logo.svg"> 
+  
+        </td>
+      </tr>
+
+    <div class="row1">
+
+      
+
+    <div id="div1" class="column1" >
+
+
+
+      <tr style="background-image: image(bg-pattern-desktop) ;">  
+        <img src="../base-apparel-coming-soon-master/images/logo.svg"
+          alt=""          >
+
+        <td class="background" style="padding-left: 10vh; padding-top: 50px;" >
+
+
+          <h1>We're </h1>
+           <h1>coming soon</h1>
+  
+          <p class="Coming">
+             Hello fellow shoppers! We're currently building our new<br>
+            fashion store. Add your email below to stay up-to-date with<br> announcements
+            and our launch deals. Email Address</p>
+
+
+            <label>
+              <input type="email" id="email" name="email" placeholder="Email Address">
+              <button id="button" type="submit" value="Submit" onclick="" >
+                <img src="../base-apparel-coming-soon-master/images/icon-arrow.svg" alt="" >
+              </button>
+
+              <input type="image" src="./images/icon-arrow.svg"/>
+
+            </label>
+            
+  
+        </td>
+
+        <td rowspan="2" align="right" style="padding-right: 20px;  padding-top: 40px; padding-bottom: 40;">
+
+          <img src="../base-apparel-coming-soon-master/images/hero-desktop.jpg"
+        alt="hero-desktop"
+        style="float: right;"
+        width="80%">
+      
+        </td>
+
+
+
+
+
+      </tr>
+
+      
+    </table>
+
+ 
+
+    </div>
+
+   <div>
+
+      <img src="../base-apparel-coming-soon-master/images/bg-pattern-desktop.svg"
+      alt="bg-pattern-desktop"
+      style="float: left;"
+      width="48%"> 
+
+
+    </div>
+
+    <div id="div2" class="column2">
+
+        <img src="../base-apparel-coming-soon-master/images/hero-desktop.jpg"
+        alt="hero-desktop"
+        style="float: right;"
+        width="48%"> 
+      
+    </div> --> */
